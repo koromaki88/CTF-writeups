@@ -25,7 +25,7 @@
 From the challenge description and image, it was clear that I have to find the original video to progress further. Many noteworthy hints were provided that I immediately took notice:
 - An emphasis seems to be placed on the Japanese word `合作` for collaboration.
 - The video was uploaded last September (which was 2024) on YouTube.
-- A live chat replay is shown in the image, with usernames and corresponding chat messages. This indicates the video was either a livestream or premiere.\
+- A live chat replay is shown in the image, with usernames and corresponding chat messages. This indicates the video was either a livestream or premiere.
 
 The naive approach would be to reverse image search and/or translating the chat, but these will not provide any valuable information. However, the video could easily be found based off of the aforementioned hints by entering into the YouTube search bar: `合作 before:2024-10-01 after:2024-08-31`. This would show videos with the keyword `合作` posted in September 2024. From here, I just need to find the following [video](https://www.youtube.com/watch?v=-c6fmouqPUI) with a live chat replay - this part is quite random due to YouTube algorithm. Although it was the third result when I first perform the search, it was a little harder to find from further testing in a fresh browser without signing in.\
 ![tanpin-1](../img/tanpin-1.png)\
