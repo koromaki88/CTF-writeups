@@ -40,10 +40,10 @@ Based on the current information, it is uncertain which video is the correct one
 
 ![tanpin-3](../img/tanpin-3.png)\
 ![tanpin-4](../img/tanpin-4.png)\
-Now, I just need to scan roughly around that timestamp and easily find the source of `image.png`. The **first part** of the flag is confirmed to be `pxyONEf8ZGE`. From here, finding the remaining parts becomes much easier.
+Now, I just need to scan roughly around that timestamp and easily find the source of `image.png`. The **first part** of the flag is confirmed to be `pxyONEf8ZGE`. From here, finding the remaining parts becomes much easier.\
+![tanpin-5](../img/tanpin-5.png)
 
 ## Piecing Together the Flag
-![tanpin-5](../img/tanpin-5.png)\
 From watching the video, I instantly notice that the text on screen are the lyrics of the song - clues towards the second part of the flag. Here, I just need to find a section of the song where the lyrics is not heavily edited and apply OCR on it (I included the entire video frame as a reference, but OnlineOCR work best if you provide an image with *only* the text).
 ![tanpin-6](../img/tanpin-6.png)
 By looking up the lyrics `サビついた最後のページを` on Google and switch to "Videos" tab, the original music video could be found either on [YouTube](https://www.youtube.com/watch?v=WXvm5XfkXrk) or [Niconico](https://www.nicovideo.jp/watch/sm39202842) after a bit of digging. If the title is in Japanese, just putting it into Google Translate would translate it to `ice drop` - this is the **second part** of the flag. During the competition, I used the query `サビついた最後のページを vocaloid` which gave the right video as the first result.\
